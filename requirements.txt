@@ -1,4 +1,4 @@
-nltk==3.8.1
-numpy==1.25.2
-streamlit==1.29.0
+nltk
+numpy
+streamlit
 tensorflow-cpu==2.10.1
