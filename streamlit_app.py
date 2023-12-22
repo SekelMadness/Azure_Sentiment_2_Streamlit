@@ -29,7 +29,7 @@ st.sidebar.title("Context")
 
 st.sidebar.image("image/air_paradis.png", width=200)
 
-st.sidebar.write(":red[Air Paradis wants an AI prototype to predict sentiment from tweets]. \n \n Sentiment140 dataset was used to create my model. You can find the dataset [here](https://www.kaggle.com/datasets/kazanova/sentiment140).\n \n The model is a LSTM unidirectional Word2Vec embedding on raw text. \n \n :green[You'll be returned positive if score is above 0.5 and negative if score is below 0.5]. \n \n :green[0 means very negative tweet and 1 for very positive tweet]. \n \n Let's try it! \n \n :blue[C.C]")
+st.sidebar.write("Air Paradis wants an AI prototype to predict sentiment from tweets. \n \n Sentiment140 dataset was used to create my model. You can find the dataset [here](https://www.kaggle.com/datasets/kazanova/sentiment140).\n \n The model is a LSTM unidirectional Word2Vec embedding on raw text. \n \n You'll be returned positive if score is above 0.5 and negative if score is below 0.5. \n \n 0 means very negative tweet and 1 for very positive tweet. \n \n Let's try it! \n \n C.C")
 
 # Maximum length sequence used during training
 MAX_SEQUENCE_LENGTH = 140
